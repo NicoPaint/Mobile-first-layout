@@ -121,9 +121,37 @@ main{
     text-align: center;
 }
 
+.main-exchange-container .backgroundImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/imgs/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: url('./assets/images/bitcoin.svg') center/cover no-repeat;  Esta es la manera resumida de escribir las 4 lineas anteriores */
+}
+
 .main-exchange-container--title{
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;  /* esto centra el contenido sin usar display flex */
+}
+
+.main-exchange-container--title h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container--title p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
 }
