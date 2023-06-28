@@ -482,7 +482,7 @@ main{
 .plan-card--price span{
     position: absolute;
     top: -10px;
-    left: calc(50% - 45px);
+    left: calc(50% - 50px);
     font-size: 1.2rem;
     font-weight: 300;
 }
